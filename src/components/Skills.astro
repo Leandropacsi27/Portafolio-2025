@@ -1,0 +1,101 @@
+---
+import CodeIcon from "@/components/icons/Code.astro";
+import Briefcase from "@/components/icons/Briefcase.astro";
+---
+
+<section class="mt-8">
+  <div class="grid gap-6 md:grid-cols-2 items-start">
+    <!-- Técnicas -->
+    <div
+      class="bg-card p-6 rounded-xl border border-gray-200 dark:border-neutral-800 shadow-sm"
+    >
+      <div class="flex items-center gap-3 mb-4">
+        <CodeIcon class="size-7" />
+        <h3 class="text-xl font-semibold">Técnicas</h3>
+      </div>
+
+      <div class="grid gap-3">
+        <div>
+          <h4 class="text-sm font-medium text-muted-foreground">
+            Lenguajes de programación
+          </h4>
+          <p class="mt-1 text-base">Java · JavaScript · TypeScript · SQL</p>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-medium text-muted-foreground">
+            Frameworks y herramientas
+          </h4>
+          <p class="mt-1 text-base">Spring Boot · Angular · Git · Postman</p>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-medium text-muted-foreground">
+            Base de datos
+          </h4>
+          <p class="mt-1 text-base">MySQL · H2</p>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-medium text-muted-foreground">
+            Metodologías
+          </h4>
+          <p class="mt-1 text-base">MVC · REST API · POO </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blandas -->
+    <div
+      class="bg-card p-6 rounded-xl border border-gray-200 dark:border-neutral-800 shadow-sm"
+    >
+      <div class="flex items-center gap-3 mb-4">
+        <Briefcase class="size-7" />
+        <h3 class="text-xl font-semibold">Habilidades Blandas</h3>
+      </div>
+
+      <ul class="mt-2 space-y-3">
+        <li class="flex items-start gap-3">
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 text-primary"
+            >✓</span
+          >
+          <div>
+            <p class="font-medium">Trabajo en equipo y comunicación efectiva</p>
+            <p class="text-sm text-muted-foreground">
+              Colaboración proactiva en equipos multidisciplinares.
+            </p>
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 text-primary"
+            >✓</span
+          >
+          <div>
+            <p class="font-medium">Adaptabilidad y aprendizaje continuo</p>
+            <p class="text-sm text-muted-foreground">
+              Incorporación rápida de nuevas herramientas y paradigmas.
+            </p>
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 text-primary"
+            >✓</span
+          >
+          <div>
+            <p class="font-medium">
+              Pensamiento analítico y resolución de problemas
+            </p>
+            <p class="text-sm text-muted-foreground">
+              Enfoque sistemático para identificar causas raíz.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

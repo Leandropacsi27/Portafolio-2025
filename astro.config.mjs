@@ -1,10 +1,7 @@
-import { defineConfig } from 'astro/config'
-import tailwind from "@astrojs/tailwind"
+import { defineConfig } from "astro/config";
+import github from "@astrojs/github/pages";
 
-import robotsTxt from "astro-robots-txt"
-
-// https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), robotsTxt()],
-  site: 'https://porfolio.dev/'
-})
+  site: "https://leandropacsi27.github.io/Portafolio-2025/",
+  integrations: [github()],
+});
